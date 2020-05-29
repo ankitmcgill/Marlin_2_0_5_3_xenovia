@@ -1041,7 +1041,7 @@
 
 // Disables axis stepper immediately when it's not being used.
 // WARNING: When motors turn off there is a chance of losing position accuracy!
-#define DISABLE_X false
+#define DISABLE_X true
 #define DISABLE_Y false
 #define DISABLE_Z false
 
@@ -1099,9 +1099,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE
+#define X_MAX_POS 0
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 200
+#define Z_MAX_POS 50
 
 /**
  * Software Endstops
