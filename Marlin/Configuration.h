@@ -1101,7 +1101,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 0
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 100
+#define Z_MAX_POS 120
 
 /**
  * Software Endstops
